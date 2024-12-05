@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("WaterMonitoringSystem")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DataCollectionSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c829c8ad173e32b6e84fc9e0a006815e90fe257a")]
-[assembly: System.Reflection.AssemblyProductAttribute("WaterMonitoringSystem")]
-[assembly: System.Reflection.AssemblyTitleAttribute("WaterMonitoringSystem")]
+[assembly: System.Reflection.AssemblyProductAttribute("DataCollectionSystem")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DataCollectionSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
