@@ -1,0 +1,45 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Моніторинг</title>
+</head>
+<body>
+<h1>Ви увійшли як @User.Identity.Name</h1>
+<button id="startMonitoring">Запустити моніторинг</button>
+<button id="checkStatus">Перевірити статус моніторингу</button>
+<button id="checkData">Перевірити дані</button>
+
+<div id="result"></div>
+
+<script>
+    async function authFetch(url, options = {}) {
+        options.headers = options.headers || {};
+        // Токен з cookie:
+        const token = document.cookie.split('; ').find(row => row.startsWith('auth_token='))?.split('=')[1];
+        return fetch(url, options);
+    }
+
+    document.getElementById('startMonitoring').addEventListener('click', async () => {
+        const response = await authFetch('/api/monitoring/start', {method:'POST'});
+        const text = await response.text();
+        document.getElementById('result').innerText = text;
+    });
+
+    document.getElementById('checkStatus').addEventListener('click', async () => {
+        const response = await authFetch('/api/monitoring/status');
+        const text = await response.text();
+        document.getElementById('result').innerText = text;
+    });
+
+    document.getElementById('checkData').addEventListener('click', async () => {
+        const response = await authFetch('/api/monitoring/check-data');
+        const json = await response.json();
+        document.getElementById('result').innerText = JSON.stringify(json, null, 2);
+    });
+</script>
+</body>
+</html>
