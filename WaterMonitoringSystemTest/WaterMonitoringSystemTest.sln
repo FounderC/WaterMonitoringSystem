@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterMonitoringSystemTest", "WaterMonitoringSystemTest\WaterMonitoringSystemTest.csproj", "{F9DB4627-F172-43CB-95E3-F7E0DFE852C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{7D6481B1-B6C9-4A91-B70A-4231A375C0B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F9DB4627-F172-43CB-95E3-F7E0DFE852C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9DB4627-F172-43CB-95E3-F7E0DFE852C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9DB4627-F172-43CB-95E3-F7E0DFE852C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6481B1-B6C9-4A91-B70A-4231A375C0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6481B1-B6C9-4A91-B70A-4231A375C0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6481B1-B6C9-4A91-B70A-4231A375C0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6481B1-B6C9-4A91-B70A-4231A375C0B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
