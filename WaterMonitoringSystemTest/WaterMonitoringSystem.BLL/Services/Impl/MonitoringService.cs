@@ -40,7 +40,7 @@ namespace WaterMonitoringSystem.BLL.Services.Impl
 
             foreach (var sensor in sensors ?? new List<Sensor>())
             {
-                var data = "Simulated Data"; // Симуляція даних
+                var data = "Simulated Data"; 
                 var monitoringData = new MonitoringData
                 {
                     SensorID = sensor.SensorID,

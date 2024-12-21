@@ -50,8 +50,7 @@ namespace WaterMonitoringSystem.BLL.Tests.Services
                 new Sensor { SensorID = 1, Name = "Sensor1", Data = "OldData" },
                 new Sensor { SensorID = 2, Name = "Sensor2", Data = "OldData" }
             };
-
-            // Налаштування для ISensorRepository
+            
             var mockSensorRepository = new Mock<ISensorRepository>();
             mockSensorRepository.Setup(r => r.GetAll()).Returns(testSensors);
 
