@@ -433,3 +433,5 @@ E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\DAL.Tests\obj\Debug\ne
 E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\DAL.Tests\obj\Debug\net6.0\DAL.Tests.pdb
 E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\DAL.Tests\obj\Debug\net6.0\DAL.Tests.genruntimeconfig.cache
 E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\DAL.Tests\obj\Debug\net6.0\ref\DAL.Tests.dll
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\DAL.Tests\bin\Debug\net6.0\WaterMonitoringSystem.CCL.dll
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\DAL.Tests\bin\Debug\net6.0\WaterMonitoringSystem.CCL.pdb

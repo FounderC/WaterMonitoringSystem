@@ -1,0 +1,12 @@
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\bin\Debug\net6.0\WaterMonitoringSystem.CCL.deps.json
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\bin\Debug\net6.0\WaterMonitoringSystem.CCL.dll
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\bin\Debug\net6.0\WaterMonitoringSystem.CCL.pdb
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\obj\Debug\net6.0\WaterMonitoringSystem.CCL.csproj.AssemblyReference.cache
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\obj\Debug\net6.0\WaterMonitoringSystem.CCL.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\obj\Debug\net6.0\WaterMonitoringSystem.CCL.AssemblyInfoInputs.cache
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\obj\Debug\net6.0\WaterMonitoringSystem.CCL.AssemblyInfo.cs
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\obj\Debug\net6.0\WaterMonitoringSystem.CCL.csproj.CoreCompileInputs.cache
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\obj\Debug\net6.0\WaterMonitoringSystem.CCL.dll
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\obj\Debug\net6.0\refint\WaterMonitoringSystem.CCL.dll
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\obj\Debug\net6.0\WaterMonitoringSystem.CCL.pdb
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystem.CCL\obj\Debug\net6.0\ref\WaterMonitoringSystem.CCL.dll

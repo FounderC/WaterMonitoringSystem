@@ -4,5 +4,6 @@ namespace WaterMonitoringSystemTest.DAL.Repositories.Interfaces
 {
     public interface ISensorRepository : IRepository<Sensor>
     {
+        
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WaterMonitoringSystemTest.DAL.Entities;
 using WaterMonitoringSystemTest.DAL.UnitOfWork;
+using WaterMonitoringSystem.CCL.Identity;
 
 namespace WaterMonitoringSystemTest.Controllers
 {
@@ -18,8 +19,11 @@ namespace WaterMonitoringSystemTest.Controllers
         [HttpPost("start")]
         public IActionResult StartMonitoring()
         {
-            if (!User.Identity.IsAuthenticated)
-                return Unauthorized("Ви не авторизовані!");
+            var user = SecurityContext.GetUser();
+
+            // Перевірка користувача та його ролі
+            if (user == null || user.GetType() != typeof(Admin))
+                return Unauthorized("Access denied!");
 
             var sensors = _unitOfWork.Sensors.GetAll();
             foreach (var sensor in sensors)
@@ -41,10 +45,15 @@ namespace WaterMonitoringSystemTest.Controllers
         [HttpGet("status")]
         public IActionResult GetMonitoringStatus()
         {
-            if (!User.Identity.IsAuthenticated)
-                return Unauthorized("Ви не авторизовані!");
+            var user = SecurityContext.GetUser();
 
-            var recentData = _unitOfWork.MonitoringData.Find(m => m.Timestamp > DateTime.Now.AddMinutes(-5)).Any();
+            // Перевірка користувача та його ролі
+            if (user == null || user.GetType() != typeof(Admin))
+                return Unauthorized("Access denied!");
+
+            var recentData = _unitOfWork.MonitoringData
+                .Find(m => m.Timestamp > DateTime.Now.AddMinutes(-5)).Any();
+
             if (recentData)
                 return Ok("Моніторинг активний, дані надходять.");
             else
@@ -54,8 +63,11 @@ namespace WaterMonitoringSystemTest.Controllers
         [HttpGet("check-data")]
         public IActionResult CheckMonitoringData()
         {
-            if (!User.Identity.IsAuthenticated)
-                return Unauthorized("Ви не авторизовані!");
+            var user = SecurityContext.GetUser();
+
+            // Перевірка користувача та його ролі
+            if (user == null || user.GetType() != typeof(Admin))
+                return Unauthorized("Access denied!");
 
             var data = _unitOfWork.MonitoringData.GetAll().ToList();
             return Ok(data);
@@ -63,7 +75,7 @@ namespace WaterMonitoringSystemTest.Controllers
 
         private string ReadSensorData(Sensor sensor)
         {
-            return "Стабільні дані";
+            return "Стабільні дані"; // Симуляція читання даних із сенсора
         }
     }
 }

@@ -353,3 +353,5 @@ E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystemT
 E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystemTest\obj\Debug\net6.0\WaterMonitoringSystemTest.RazorAssemblyInfo.cs
 E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystemTest\bin\Debug\net6.0\Castle.Core.dll
 E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystemTest\bin\Debug\net6.0\Moq.dll
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystemTest\bin\Debug\net6.0\WaterMonitoringSystem.CCL.dll
+E:\GitHub\WaterMonitoringSystem\WaterMonitoringSystemTest\WaterMonitoringSystemTest\bin\Debug\net6.0\WaterMonitoringSystem.CCL.pdb

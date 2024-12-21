@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WaterMonitoringSystemTest.DAL;
 using WaterMonitoringSystemTest.DAL.UnitOfWork;
+using WaterMonitoringSystem.CCL.Identity;
 
 namespace WaterMonitoringSystemTest
 {
@@ -34,19 +35,26 @@ namespace WaterMonitoringSystemTest
 
             app.UseRouting();
 
-            // авторизація через cookie 'auth_token'
+            // Middleware для імітації авторизації та ініціалізації SecurityContext
             app.Use(async (context, next) =>
             {
+                // Ініціалізація фейкового адміністратора
                 var token = context.Request.Cookies["auth_token"];
                 if (!string.IsNullOrEmpty(token) && token == "valid_token")
                 {
-                    // Імітуємо авторизованого користувача
+                    var fakeAdmin = new Admin(1, "Admin User");
+                    SecurityContext.SetUser(fakeAdmin);
+
                     context.User = new System.Security.Claims.ClaimsPrincipal(
                         new System.Security.Claims.ClaimsIdentity(new[]
                         {
-                            new System.Security.Claims.Claim("name", "Admin User"),
+                            new System.Security.Claims.Claim("name", fakeAdmin.Name),
                             new System.Security.Claims.Claim("role", "Admin")
                         }, "FakeScheme"));
+                }
+                else
+                {
+                    SecurityContext.SetUser(null); // Видаляємо користувача, якщо токена немає
                 }
 
                 await next.Invoke();

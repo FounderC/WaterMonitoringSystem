@@ -1086,6 +1086,16 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "WaterMonitoringSystem.CCL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WaterMonitoringSystem.CCL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WaterMonitoringSystem.CCL.dll": {}
+        }
       }
     }
   },
@@ -2403,6 +2413,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "WaterMonitoringSystem.CCL/1.0.0": {
+      "type": "project",
+      "path": "../WaterMonitoringSystem.CCL/WaterMonitoringSystem.CCL.csproj",
+      "msbuildProject": "../WaterMonitoringSystem.CCL/WaterMonitoringSystem.CCL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2413,7 +2428,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
       "Moq >= 4.20.72",
-      "Pomelo.EntityFrameworkCore.MySql >= 6.0.2"
+      "Pomelo.EntityFrameworkCore.MySql >= 6.0.2",
+      "WaterMonitoringSystem.CCL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2442,7 +2458,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj": {
+              "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

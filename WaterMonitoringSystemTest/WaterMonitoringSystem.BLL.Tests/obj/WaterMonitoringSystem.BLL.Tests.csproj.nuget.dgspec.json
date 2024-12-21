@@ -1,0 +1,302 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL.Tests\\WaterMonitoringSystem.BLL.Tests.csproj": {}
+  },
+  "projects": {
+    "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL.Tests\\WaterMonitoringSystem.BLL.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL.Tests\\WaterMonitoringSystem.BLL.Tests.csproj",
+        "projectName": "WaterMonitoringSystem.BLL.Tests",
+        "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL.Tests\\WaterMonitoringSystem.BLL.Tests.csproj",
+        "packagesPath": "C:\\Users\\Khome\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Khome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL\\WaterMonitoringSystem.BLL.csproj": {
+                "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL\\WaterMonitoringSystem.BLL.csproj"
+              },
+              "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj": {
+                "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj"
+              },
+              "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest.csproj": {
+                "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Khome\\.dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL\\WaterMonitoringSystem.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL\\WaterMonitoringSystem.BLL.csproj",
+        "projectName": "WaterMonitoringSystem.BLL",
+        "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL\\WaterMonitoringSystem.BLL.csproj",
+        "packagesPath": "C:\\Users\\Khome\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Khome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj": {
+                "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj"
+              },
+              "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest.csproj": {
+                "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Khome\\.dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj",
+        "projectName": "WaterMonitoringSystem.CCL",
+        "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj",
+        "packagesPath": "C:\\Users\\Khome\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Khome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Khome\\.dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest.csproj",
+        "projectName": "WaterMonitoringSystemTest",
+        "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest.csproj",
+        "packagesPath": "C:\\Users\\Khome\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystemTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Khome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj": {
+                "projectPath": "E:\\GitHub\\WaterMonitoringSystem\\WaterMonitoringSystemTest\\WaterMonitoringSystem.CCL\\WaterMonitoringSystem.CCL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Khome\\.dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

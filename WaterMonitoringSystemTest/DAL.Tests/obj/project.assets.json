@@ -2767,6 +2767,16 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "WaterMonitoringSystem.CCL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WaterMonitoringSystem.CCL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WaterMonitoringSystem.CCL.dll": {}
+        }
+      },
       "WaterMonitoringSystemTest/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2775,7 +2785,8 @@
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Moq": "4.20.72",
-          "Pomelo.EntityFrameworkCore.MySql": "6.0.2"
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
+          "WaterMonitoringSystem.CCL": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WaterMonitoringSystemTest.dll": {}
@@ -8252,6 +8263,11 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "WaterMonitoringSystem.CCL/1.0.0": {
+      "type": "project",
+      "path": "../WaterMonitoringSystem.CCL/WaterMonitoringSystem.CCL.csproj",
+      "msbuildProject": "../WaterMonitoringSystem.CCL/WaterMonitoringSystem.CCL.csproj"
     },
     "WaterMonitoringSystemTest/1.0.0": {
       "type": "project",
